@@ -1,0 +1,454 @@
+{
+    "languages": {
+      "English": {
+        "conditionals": {
+          "if": "if",
+          "else": "else",
+          "syntax": "if (condition) { \n    statements\n} else { \n    statements\n}"
+        },
+        "commands": {
+            "print": "print"
+          },
+        "loops": {
+          "for": "for",
+          "while": "while",
+          "syntax": {
+            "for": "for (variable in range) { \n    statements\n}",
+            "while": "while (condition) { \n    statements\n}"
+          }
+        },
+        "variables": {
+          "definition": "name = value",
+          "example": "number = 10"
+        },
+        "comments": {
+          "single_line": "// This is a comment",
+          "multi_line": "/* This is a \nmultiline comment */"
+        }
+      },
+      "Mandarin": {
+        "conditionals": {
+          "if": "如果",
+          "else": "否则",
+          "syntax": "如果 (条件) { \n    执行内容\n} 否则 { \n    执行内容\n}"
+        },
+        "loops": {
+          "for": "对于",
+          "while": "当",
+          "syntax": {
+            "for": "对于 (变量 在 范围内) { \n    执行内容\n}",
+            "while": "当 (条件) { \n    执行内容\n}"
+          }
+        },
+        "variables": {
+          "definition": "变量名 = 值",
+          "example": "年龄 = 30"
+        },
+        "comments": {
+          "single_line": "// 这是一个注释",
+          "multi_line": "/* 这是一个 \n多行注释 */"
+        }
+      },
+      "French": {
+        "conditionals": {
+          "if": "si",
+          "else": "sinon",
+          "syntax": "si (condition) { \n    instructions\n} sinon { \n    instructions\n}"
+        },
+        "loops": {
+          "for": "pour",
+          "while": "tant que",
+          "syntax": {
+            "for": "pour (variable dans la plage) { \n    instructions\n}",
+            "while": "tant que (condition) { \n    instructions\n}"
+          }
+        },
+        "variables": {
+          "definition": "nom = valeur",
+          "example": "âge = 40"
+        },
+        "comments": {
+          "single_line": "// Ceci est un commentaire",
+          "multi_line": "/* Ceci est un \ncommentaire multiligne */"
+        }
+      },
+      "Modern Standard Arabic": {
+        "conditionals": {
+          "if": "إذا",
+          "else": "وإلا",
+          "syntax": "إذا (الشرط) { \n    تعليمات\n} وإلا { \n    تعليمات\n}"
+        },
+        "loops": {
+          "for": "لكل",
+          "while": "بينما",
+          "syntax": {
+            "for": "لكل (متغير في النطاق) { \n    تعليمات\n}",
+            "while": "بينما (الشرط) { \n    تعليمات\n}"
+          }
+        },
+        "variables": {
+          "definition": "اسم = قيمة",
+          "example": "عدد = 10"
+        },
+        "comments": {
+          "single_line": "// هذا تعليق",
+          "multi_line": "/* هذا \nتعليق متعدد الأسطر */"
+        }
+      },
+      "Bengali": {
+        "conditionals": {
+          "if": "যদি",
+          "else": "না হলে",
+          "syntax": "যদি (শর্ত) { \n    কাজ\n} না হলে { \n    কাজ\n}"
+        },
+        "loops": {
+          "for": "জন্য",
+          "while": "যখন",
+          "syntax": {
+            "for": "জন্য (পরিবর্তনশীল পরিসরে) { \n    কাজ\n}",
+            "while": "যখন (শর্ত) { \n    কাজ\n}"
+          }
+        },
+        "variables": {
+          "definition": "নাম = মান",
+          "example": "সংখ্যা = ১০"
+        },
+        "comments": {
+          "single_line": "// এটি একটি মন্তব্য",
+          "multi_line": "/* এটি \nএকাধিক লাইনের মন্তব্য */"
+        }
+      },
+      "Portuguese": {
+        "conditionals": {
+          "if": "se",
+          "else": "senão",
+          "syntax": "se (condição) { \n    instruções\n} senão { \n    instruções\n}"
+        },
+        "loops": {
+          "for": "para",
+          "while": "enquanto",
+          "syntax": {
+            "for": "para (variável em alcance) { \n    instruções\n}",
+            "while": "enquanto (condição) { \n    instruções\n}"
+          }
+        },
+        "variables": {
+          "definition": "nome = valor",
+          "example": "idade = 25"
+        },
+        "comments": {
+          "single_line": "// Este é um comentário",
+          "multi_line": "/* Este é um \ncomentário multilinha */"
+        }
+      },
+      "Russian": {
+        "conditionals": {
+          "if": "если",
+          "else": "иначе",
+          "syntax": "если (условие) { \n    инструкции\n} иначе { \n    инструкции\n}"
+        },
+        "loops": {
+          "for": "для",
+          "while": "пока",
+          "syntax": {
+            "for": "для (переменная в диапазоне) { \n    инструкции\n}",
+            "while": "пока (условие) { \n    инструкции\n}"
+          }
+        },
+        "variables": {
+          "definition": "имя = значение",
+          "example": "число = 10"
+        },
+        "comments": {
+          "single_line": "// Это комментарий",
+          "multi_line": "/* Это \nмногострочный комментарий */"
+        }
+      },
+      "Urdu": {
+        "conditionals": {
+          "if": "اگر",
+          "else": "ورنہ",
+          "syntax": "اگر (شرط) { \n    ہدایات\n} ورنہ { \n    ہدایات\n}"
+        },
+        "loops": {
+          "for": "کے لئے",
+          "while": "جب تک",
+          "syntax": {
+            "for": "کے لئے (متغیر حد میں) { \n    ہدایات\n}",
+            "while": "جب تک (شرط) { \n    ہدایات\n}"
+          }
+        },
+        "variables": {
+          "definition": "نام = قیمت",
+          "example": "عمر = 30"
+        },
+        "comments": {
+          "single_line": "// یہ ایک تبصرہ ہے",
+          "multi_line": "/* یہ ایک \nکثیر سطری تبصرہ ہے */"
+        },
+        "commands": {
+            "print": "پرنٹ"
+        }
+      },
+      "Indonesian": {
+        "conditionals": {
+          "if": "jika",
+          "else": "jika tidak",
+          "syntax": "jika (kondisi) { \n    perintah\n} jika tidak { \n    perintah\n}"
+        },
+        "loops": {
+          "for": "untuk",
+          "while": "selama",
+          "syntax": {
+            "for": "untuk (variabel dalam rentang) { \n    perintah\n}",
+            "while": "selama (kondisi) { \n    perintah\n}"
+          }
+        },
+        "variables": {
+          "definition": "nama = nilai",
+          "example": "usia = 25"
+        },
+        "comments": {
+          "single_line": "// Ini adalah komentar",
+          "multi_line": "/* Ini adalah \nkomentar multiline */"
+        }
+      },
+      "German": {
+        "conditionals": {
+          "if": "wenn",
+          "else": "sonst",
+          "syntax": "wenn (Bedingung) { \n    Anweisungen\n} sonst { \n    Anweisungen\n}"
+        },
+        "loops": {
+          "for": "für",
+          "while": "während",
+          "syntax": {
+            "for": "für (Variable im Bereich) { \n    Anweisungen\n}",
+            "while": "während (Bedingung) { \n    Anweisungen\n}"
+          }
+        },
+        "variables": {
+          "definition": "name = wert",
+          "example": "alter = 25"
+        },
+        "comments": {
+          "single_line": "// Das ist ein Kommentar",
+          "multi_line": "/* Das ist ein \nmehrzeiliger Kommentar */"
+        }
+      },
+      "Japanese": {
+        "conditionals": {
+            "if": "もし",
+            "else": "それ以外",
+            "syntax": "もし (条件) { \n    実行内容\n} それ以外 { \n    実行内容\n}"
+        },
+        "loops": {
+            "for": "繰り返し",
+            "while": "〜する間",
+            "syntax": {
+            "for": "繰り返し (変数 範囲) { \n    実行内容\n}",
+            "while": "〜する間 (条件) { \n    実行内容\n}"
+            }
+        },
+        "variables": {
+            "definition": "名前 = 値",
+            "example": "年齢 = 25"
+        },
+        "comments": {
+            "single_line": "// これはコメントです",
+            "multi_line": "/* これは \n複数行のコメントです */"
+        },
+        "commands": {
+            "print": "表示する"
+        }
+        },
+      "Nigerian Pidgin": {
+        "conditionals": {
+          "if": "if",
+          "else": "else",
+          "syntax": "if (condition) { \n    instructions\n} else { \n    instructions\n}"
+        },
+        "loops": {
+          "for": "for",
+          "while": "while",
+          "syntax": {
+            "for": "for (variable in range) { \n    instructions\n}",
+            "while": "while (condition) { \n    instructions\n}"
+          }
+        },
+        "variables": {
+          "definition": "name = value",
+          "example": "number = 10"
+        },
+        "comments": {
+          "single_line": "// This na one comment",
+          "multi_line": "/* This na \nmulti-line comment */"
+        }
+      },
+      "Egyptian Arabic": {
+        "conditionals": {
+          "if": "لو",
+          "else": "غير كده",
+          "syntax": "لو (الشرط) { \n    تعليمات\n} غير كده { \n    تعليمات\n}"
+        },
+        "loops": {
+          "for": "عشان",
+          "while": "طول ما",
+          "syntax": {
+            "for": "عشان (متغير في النطاق) { \n    تعليمات\n}",
+            "while": "طول ما (الشرط) { \n    تعليمات\n}"
+          }
+        },
+        "variables": {
+          "definition": "اسم = قيمة",
+          "example": "عدد = ١٠"
+        },
+        "comments": {
+          "single_line": "// ده تعليق",
+          "multi_line": "/* ده \nتعليق متعدد السطور */"
+        }
+      },
+      "Marathi": {
+        "conditionals": {
+          "if": "जर",
+          "else": "नाहीतर",
+          "syntax": "जर (अट) { \n    काम\n} नाहीतर { \n    काम\n}"
+        },
+        "loops": {
+          "for": "साठी",
+          "while": "जोपर्यंत",
+          "syntax": {
+            "for": "साठी (चल श्रेणीत) { \n    काम\n}",
+            "while": "जोपर्यंत (अट) { \n    काम\n}"
+          }
+        },
+        "variables": {
+          "definition": "नाव = मूल्य",
+          "example": "संख्या = १०"
+        },
+        "comments": {
+          "single_line": "// हे एक टिप्पणी आहे",
+          "multi_line": "/* हे \nअनेक ओळींचे टिप्पणी आहे */"
+        }
+      },
+      "Telugu": {
+        "conditionals": {
+          "if": "అయితే",
+          "else": "లేదా",
+          "syntax": "(పరిస్థితి) అయితే { \n చేయాల్సిన పని  \n} లేకపోతే { \n  చేయాల్సిన పని  \n}"
+        },
+        "loops": {
+          "while": "నిజం అయ్యినంతవరకు",
+          "syntax": {
+            "while": "(పరిస్థితి) నిజం అయ్యినంతవరకు { \n    చేయాల్సిన పని  \n}"
+          }
+        },
+        "variables": {
+          "definition": "పేరు = విలువ",
+          "example": "సంఖ్య = 10"
+        },
+        "comments": {
+          "single_line": "// ఈది ఒక వ్యాఖ్య",
+          "multi_line": "/* ఇది\nబహుళ పంక్తుల\nవ్యాఖ్య */"
+        },
+        "commands": {
+          "print": "ప్రింట్"
+        }
+      },
+      "Turkish": {
+        "conditionals": {
+          "if": "eğer",
+          "else": "aksi takdirde",
+          "syntax": "eğer (koşul) { \n    talimatlar\n} aksi takdirde { \n    talimatlar\n}"
+        },
+        "loops": {
+          "for": "için",
+          "while": "iken",
+          "syntax": {
+            "for": "için (değişken aralıkta) { \n    talimatlar\n}",
+            "while": "iken (koşul) { \n    talimatlar\n}"
+          }
+        },
+        "variables": {
+          "definition": "isim = değer",
+          "example": "yaş = 25"
+        },
+        "comments": {
+          "single_line": "// Bu bir yorum",
+          "multi_line": "/* Bu bir \nçok satırlı yorumdur */"
+        }
+      },
+      "Tamil": {
+        "conditionals": {
+          "if": "ஆனால்",
+          "else": "அல்லாத பட்சத்தில்",
+          "syntax": "ஆனால் (நிபந்தனை) { \n    செயல்பாடு\n} அல்லாத பட்சத்தில் { \n    செயல்பாடு\n}"
+        },
+        "loops": {
+          "for": "க்காக",
+          "while": "வரை",
+          "syntax": {
+            "for": "க்காக (மாறி வரம்பில்) { \n    செயல்பாடு\n}",
+            "while": "வரை (நிபந்தனை) { \n    செயல்பாடு\n}"
+          }
+        },
+        "variables": {
+          "definition": "பெயர் = மதிப்பு",
+          "example": "எண் = 10"
+        },
+        "comments": {
+          "single_line": "// இது ஒரு குறிப்புரை",
+          "multi_line": "/* இது ஒரு \nபலவரி குறிப்புரை */"
+        }
+      },
+      "Yue Chinese": {
+        "conditionals": {
+          "if": "如果",
+          "else": "否則",
+          "syntax": "如果 (條件) { \n    指令\n} 否則 { \n    指令\n}"
+        },
+        "loops": {
+          "for": "對於",
+          "while": "當",
+          "syntax": {
+            "for": "對於 (變量 在 範圍內) { \n    指令\n}",
+            "while": "當 (條件) { \n    指令\n}"
+          }
+        },
+        "variables": {
+          "definition": "變量 = 值",
+          "example": "數量 = 10"
+        },
+        "comments": {
+          "single_line": "// 呢個係註解",
+          "multi_line": "/* 呢個係 \n多行註解 */"
+        }
+      },
+        "Hindi": {
+          "conditionals": {
+            "if": "अगर",
+            "else": "नहीं तो",
+            "syntax": "अगर (शर्त) { \n    निर्देश\n} नहीं तो { \n    निर्देश\n}"
+          },
+          "loops": {
+            "for": "के लिए",
+            "while": "जब तक",
+            "syntax": {
+              "for": "के लिए (चर सीमा में) { \n    निर्देश\n}",
+              "while": "जब तक (शर्त) { \n    निर्देश\n}"
+            }
+          },
+          "variables": {
+            "definition": "नाम = मान",
+            "example": "संख्या = १०"
+          },
+          "comments": {
+            "single_line": "// यह एक टिप्पणी है",
+            "multi_line": "/* यह एक \nबहु-पंक्ति टिप्पणी है */"
+          },
+          "commands": {
+            "print": "प्रिंट"
+          }
+        }
+    }
+  }
