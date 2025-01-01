@@ -1,6 +1,6 @@
 # glode
 
-Glode is a programming language and IDE that enables developers to code in their native languages. This is a rough draft beta version, and significant changes and improvements are planned as we refine and expand the project. Glode aims to make programming more accessible and inclusive, bridging the gap between technology and diverse linguistic communities.
+Glode is a programming language and IDE that enables developers to code in their native languages, leveraging generative AI. This is a rough draft beta version, and significant changes and improvements are planned as we refine and expand the project. Glode aims to make programming more accessible and inclusive, bridging the gap between technology and diverse linguistic communities.
 
 🚀 Features (Beta)
 	•	Write code in multiple natural languages.
